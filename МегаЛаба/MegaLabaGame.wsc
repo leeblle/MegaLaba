@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <component>
+ <?component error="true" debug="true"?>
+
+<registration
+	description="MegaLabaGame"
+	progid="MegaLabaGame.WSC"
+	version="1.00"
+	classid="{0834047a-af26-455f-9970-647bd970582c}"
+>
+</registration>
+
+<public>
+	<method name="CreateWin" dispid = "1">
+		<PARAMETER name="Score"/>
+		<PARAMETER name="Level"/>
+	</method>
+	<method name="CreateDefeat" dispid = "2">
+		<PARAMETER name="Score"/>
+		<PARAMETER name="Level"/>
+	</method>
+</public>
+
+
+<script language="VBScript">
+<![CDATA[
+
+function CreateWin(Score,Level)
+	Text = "Вы успешно прошли "+Level+"й уровень!" + vbCrLf + "Очки: " + Score + vbCrLf + "Продолжить прохождение?" + vbCrLf + "Для выхода из игры нажмите нет"
+	Title = "Победа"
+	If MsgBox(Text,vbYesNo+vbInformation+vbDefaultButton1,Title) = 6 Then 
+	CreateWin = 1
+	Else
+	CreateWin = 2
+	End If
+end function
+
+function CreateDefeat(Score,Level)
+	Text = "Вы не прошли "+Level+"й уровень!" + vbCrLf + " Очки: " + Score + vbCrLf + "Продолжить прохождение?" + vbCrLf + "Для выхода из игры нажмите нет"
+	Title = "Поражение"
+	
+	If MsgBox(Text,vbYesNo+vbInformation+vbDefaultButton1,Title) = 6 Then 
+	CreateDefeat = 1
+	Else
+	CreateDefeat = 2
+	End If
+end function
+
+]]>
+</script>
+
+</component>

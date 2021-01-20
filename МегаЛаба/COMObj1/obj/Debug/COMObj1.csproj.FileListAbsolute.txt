@@ -1,0 +1,7 @@
+C:\Users\domas\source\repos\COMObj1\bin\Debug\COMObj1.dll
+C:\Users\domas\source\repos\COMObj1\bin\Debug\COMObj1.pdb
+C:\Users\domas\source\repos\COMObj1\obj\Debug\COMObj1.csprojAssemblyReference.cache
+C:\Users\domas\source\repos\COMObj1\obj\Debug\COMObj1.csproj.CoreCompileInputs.cache
+C:\Users\domas\source\repos\COMObj1\obj\Debug\COMObj1.dll
+C:\Users\domas\source\repos\COMObj1\obj\Debug\COMObj1.pdb
+C:\Users\domas\source\repos\COMObj1\bin\Debug\COMObj1.tlb

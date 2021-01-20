@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MegaLaba.exe" version="1.0.0.0" publicKeyToken="f1cac73342751b2f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MegaLaba" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MegaLaba.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="COMObj1.dll" size="15360">
+      <assemblyIdentity name="COMObj1" version="1.0.0.0" publicKeyToken="9621EF5DABE78BCD" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sQTgI8+KGP5yuC4RP1ltAsSWlMwGgxruTfNXEh3qlT8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MegaLaba.exe" size="25560">
+      <assemblyIdentity name="MegaLaba" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RQm0/kVBqU/D0hC4XFgB7q83/WIel0GtvL47FLW+yDU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MegaLaba.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-XELEON\domas" issuerKeyHash="2b5760b1967e941b25b56afb35941c2db4d27f50" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tbHKg6VcO5wjzyTlLMlYy8TzlV6wxG9fZuzNwTuHun4=</DigestValue></Reference></SignedInfo><SignatureValue>korsvaYKCD9rrU0Po8dOPN4P9bcnMcb2SJAzP8TTgi+N1pBSX1qDkPkwpH6loA0ZmH4CMCoUoG/DtGqDeA5xBlOW+FCMB1T3w9cOPRrrPjQ4rWJDVsKDKCYiEhoMd71mWDWZl2h0gV/00Z+8slx7MRtQIWOegr53omQHwFTbVhY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zPe5znOTDoXj5dVxbVs0+o5xPwMtcDVyWi6O5NuFVa288xDKeqmsNkRX1LHuWbK+2TMo86j4geNjfTsP3pFiqNFQVA/uetzrN7xiSdf4ZkAres/TbNjDBTG99g3j/pe+mMq+7f+qGt/BAKcPERbghwlI/dCI5OUZ8nCOYXp+LfU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7eba873bc1cdec665f6fc4b05e95f3c4cb58c92ce524cf239c3b5ca583cab1b5" Description="" Url=""><as:assemblyIdentity name="MegaLaba.exe" version="1.0.0.0" publicKeyToken="f1cac73342751b2f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-XELEON\domas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7OJ5zdybshTiVTzV2LIdTGSO4WS7zthnELVEFdyl5PY=</DigestValue></Reference></SignedInfo><SignatureValue>O2l3NsRC9EquL8/S7MbYlOn1bx6VolDRUwuKWkktQpELtFLHSjQAkgpJrCVbPYwo/RiNK7LTIUBWiuwPSkdb44DusMNEMXZYMJl7gdnIvdZkUnuxsxfdgQ8lUQdIx51aN0JNDskKe5I1c+ee0EQzWPjXoSCPb80j2M4ICFbFS/U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zPe5znOTDoXj5dVxbVs0+o5xPwMtcDVyWi6O5NuFVa288xDKeqmsNkRX1LHuWbK+2TMo86j4geNjfTsP3pFiqNFQVA/uetzrN7xiSdf4ZkAres/TbNjDBTG99g3j/pe+mMq+7f+qGt/BAKcPERbghwlI/dCI5OUZ8nCOYXp+LfU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQKMzSsB1giYFPTWEbTkBi+TANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAFgARQBMAEUATwBOAFwAZABvAG0AYQBzMB4XDTIxMDEwODIxMjc0MloXDTIyMDEwOTAzMjc0MlowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBYAEUATABFAE8ATgBcAGQAbwBtAGEAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzPe5znOTDoXj5dVxbVs0+o5xPwMtcDVyWi6O5NuFVa288xDKeqmsNkRX1LHuWbK+2TMo86j4geNjfTsP3pFiqNFQVA/uetzrN7xiSdf4ZkAres/TbNjDBTG99g3j/pe+mMq+7f+qGt/BAKcPERbghwlI/dCI5OUZ8nCOYXp+LfUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAnj3pypcEsLR1XyuwAU/0GsO689ElrtT2y2z0SHG8Lq0OAzOXaVYTCgQqkGcZOJOHoaJ8sR9Te0cJEbElD8VtYaQsscOn1IPntGk5tVU5sajCevZnqlWefMCZ3efo7sq1LflqWnLlfGtedyPZVx3rKjaUrocTRYyJCMWnY5ISn4w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

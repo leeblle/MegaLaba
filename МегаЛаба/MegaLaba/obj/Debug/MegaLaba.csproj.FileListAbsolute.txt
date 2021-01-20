@@ -1,0 +1,16 @@
+C:\Users\domas\source\repos\MegaLaba\bin\Debug\MegaLaba.exe.config
+C:\Users\domas\source\repos\MegaLaba\bin\Debug\MegaLaba.exe
+C:\Users\domas\source\repos\MegaLaba\bin\Debug\MegaLaba.pdb
+C:\Users\domas\source\repos\MegaLaba\obj\Debug\MegaLaba.csprojAssemblyReference.cache
+C:\Users\domas\source\repos\MegaLaba\obj\Debug\MegaLaba.csproj.ResolveComReference.cache
+C:\Users\domas\source\repos\MegaLaba\obj\Debug\MegaLaba.csproj.CoreCompileInputs.cache
+C:\Users\domas\source\repos\MegaLaba\obj\Debug\MegaLaba.exe
+C:\Users\domas\source\repos\MegaLaba\obj\Debug\MegaLaba.pdb
+C:\Users\domas\source\repos\MegaLaba\bin\Debug\COMObj1.dll
+C:\Users\domas\source\repos\MegaLaba\bin\Debug\COMObj1.pdb
+C:\Users\domas\source\repos\MegaLaba\obj\Debug\MegaLaba.csproj.CopyComplete
+C:\Users\domas\source\repos\MegaLaba\bin\Debug\MegaLaba.exe.manifest
+C:\Users\domas\source\repos\MegaLaba\bin\Debug\MegaLaba.application
+C:\Users\domas\source\repos\MegaLaba\obj\Debug\MegaLaba.exe.manifest
+C:\Users\domas\source\repos\MegaLaba\obj\Debug\MegaLaba.application
+C:\Users\domas\source\repos\MegaLaba\obj\Debug\Interop.MSScriptControl.dll
